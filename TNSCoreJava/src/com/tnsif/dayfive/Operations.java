@@ -39,7 +39,7 @@ public class Operations {
 		
 		obj.checkEvenOrOdd(n);
 		
-		System.out.println(obj.getFactorial(n));
+		System.out.println("Factorial is "+obj.getFactorial(n));
 		
 	//	System.out.println(sc.nextLine());
 	//	System.out.println(sc.next());
