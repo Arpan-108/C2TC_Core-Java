@@ -6,7 +6,7 @@ public class Student {
 	String name;
 	String branch;
 	static final int BATCH_STRENGTH = 54;
-	
+
 	public Student() {
 		System.out.println("Default ");
 	}
