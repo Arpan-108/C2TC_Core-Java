@@ -18,7 +18,7 @@ public class StudentDemo {
 	//	s2.setTechTrainer("Alpana");
 	//	s2.setSoftSkillTrainer("Divya");
 		
-		Student s3=new Student("T05040803","Izel","IT");
+		Student s3=new Student("T05040803","Kunal","IT");
 		
 		System.out.println(s1);
 	

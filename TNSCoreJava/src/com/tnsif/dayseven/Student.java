@@ -4,10 +4,23 @@ public class Student {
 	
 	private String uid, name, branch;
 	static private String techTrainer="Alpana", softSkillTrainer;
+	static final String CollegeName = "PVG, Nashik";
 		
 	static {
 	//	techTrainer = "Alpana";
 		softSkillTrainer = "Divya";
+		initializeStaticMembers();
+	}
+	
+	public static void initializeStaticMembers() {
+	//	this.techTrainer = "ABC"; //This keyword can't be used in static member 
+		techTrainer = "Alpana Sonje";
+		softSkillTrainer = "Divya Kalarikal";
+	//	branch = "IT"; non static members can't be accessed in static member
+	}
+	
+	public static String getSoftskillTrainer() {
+		return "Divya K";
 	}
 	
 	public Student() {
@@ -65,7 +78,7 @@ public class Student {
 
 	@Override
 	public String toString() {
-		return "Student [uid=" + uid + ", name=" + name + ", branch=" + branch + ", Tech Trainer: "+techTrainer+", Softskill Trainer: "+softSkillTrainer+ "]";
+		return "Student [uid=" + uid + ", name=" + name + ", branch=" + branch + ", Tech Trainer: "+techTrainer+", Softskill Trainer: "+softSkillTrainer+", College: "+CollegeName+ "]";
 	}
 
 
