@@ -27,18 +27,15 @@ public class Main {
 		switch(selector) { 
 		case 1: 
 			ai.setHours(hours);
-			ai.setCostPerHour(costPerHour); System.out.println("\nFlight Fare: " +
-			ai.calculateAmount()); 
+			ai.setCostPerHour(costPerHour); System.out.printf("\nFlight Fare: %.2f", ai.calculateAmount()); 
 			break; 
 		case 2: 
 			kf.setHours(hours);
-			kf.setCostPerHour(costPerHour); System.out.println("\nFlight Fare: " +
-			kf.calculateAmount()); 
+			kf.setCostPerHour(costPerHour); System.out.printf("\nFlight Fare: %.2f", kf.calculateAmount()); 
 			break; 
 		case 3: 
 			in.setHours(hours);
-			in.setCostPerHour(costPerHour); System.out.println("\nFlight Fare: " +
-			in.calculateAmount()); 
+			in.setCostPerHour(costPerHour); System.out.printf("\nFlight Fare: %.2f", in.calculateAmount()); 
 			break; 
 		default: System.out.println("Wrong Choice!!");
 		  	break; 
