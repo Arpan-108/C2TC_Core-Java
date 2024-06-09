@@ -17,7 +17,7 @@ public class Main {
 		KingFisher kf = new KingFisher();
 		Indigo in = new Indigo();
 		
-		System.out.println("Select one: \n1 AirIndia \n2 KingFisher \n3 Indigo \nEnter: \n");
+		System.out.println("Select: \n1 AirIndia \n2 KingFisher \n3 Indigo \nEnter: \n");
 		selector = sc.nextInt();
 		
 		System.out.print("\nEnter Hours: "); hours = sc.nextInt();
