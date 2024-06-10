@@ -1,7 +1,7 @@
 package com.tnsif.daynine.covariantoverrinding;
 
 public class Demo {
-	public void main(String []args) {
+	public static void main(String []args) {
 		
 		ClassC c=new ClassC();
 		System.out.println(c.getObject());
