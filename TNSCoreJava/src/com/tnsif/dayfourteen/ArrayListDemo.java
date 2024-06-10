@@ -16,7 +16,7 @@ public class ArrayListDemo {
 		System.out.println("Size of array is: "+a.size());
 		a.add(45);
 		a.add(50);
-		a.add("Hello");
+		a.add("Hello World");
 		a.add(5.0);
 		System.out.println("Arraylis is : "+a);
 		System.out.println("Is 30 present: "+a.contains(30));
