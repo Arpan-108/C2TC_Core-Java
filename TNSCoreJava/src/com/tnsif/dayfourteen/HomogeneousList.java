@@ -2,6 +2,7 @@ package com.tnsif.dayfourteen;
 
 import java.util.ArrayList;
 import java.util.Collections;
+import java.util.Comparator;
 import java.util.Iterator;
 
 public class HomogeneousList {
@@ -33,13 +34,22 @@ public class HomogeneousList {
 		while(it.hasNext()) {
 			Person p=it.next();
 			System.out.println("\n"+p);
-			it.remove();
+			
 		}
 		System.out.println("--------------------------------------------------");
 		
 		System.out.println(personList.size());
 		
+		Comparator<Person> comp=(p1, p2) -> p1.getName().compareTo(p2.getName());
 		
+		Collections.sort(personList, comp);
+		System.out.println("-----Sorting names in Person in Ascending order-----");
+		System.out.println(personList);
+		
+		comp=(p1,p2)-> (int) (p1.getContactNo()-p2.getContactNo());
+		Collections.sort(personList, comp);
+		System.out.println("-----Sorting contactNo in Person in Ascending order-----");
+		System.out.println(personList);
 	}
 
 }
