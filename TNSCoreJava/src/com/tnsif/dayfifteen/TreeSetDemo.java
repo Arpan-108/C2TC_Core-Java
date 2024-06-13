@@ -40,6 +40,7 @@ public class TreeSetDemo {
 		
 		//course.add(null); //throws NullPointerException 
 		
+		//Creating TreeSet for Employee Class Type
 		Comparator<Employee> comp1=(e1,e2)-> e1.getEmpId()-e2.getEmpId();
 		
 		Comparator<Employee> comp2=(e1,e2)-> (int) (e1.getSalary()-e2.getSalary());
