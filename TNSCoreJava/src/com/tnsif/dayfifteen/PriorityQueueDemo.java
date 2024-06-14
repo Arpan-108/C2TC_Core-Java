@@ -15,7 +15,7 @@ public class PriorityQueueDemo {
 		pQueue.add(40);
 		pQueue.add(90);
 		pQueue.add(10);
-		
+	
 		System.out.println(pQueue);
 		System.out.println("----------------------------------");
 		

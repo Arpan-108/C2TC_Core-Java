@@ -17,7 +17,7 @@ public class TreeSetDemo {
 		courseSet.add("C");
 		courseSet.add("React");
 		courseSet.add("Angular");
-		
+	
 		System.out.println(courseSet);
 		System.out.println("First Course: "+courseSet.first());
 		System.out.println("Last Course: "+courseSet.last());
