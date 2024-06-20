@@ -11,8 +11,6 @@ import java.util.function.Supplier;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
-import com.tnsif.daythirteen.interthreadcommunication.ConsumerThread;
-
 public class FunctionalInterface {
 
 	public static void main(String[] args) {
