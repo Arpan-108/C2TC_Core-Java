@@ -13,6 +13,7 @@ public class Demo {
 		obj.show(45.10);
 		obj.show(true);
 		obj.show(new Student(1, "Arpan", 70));
+		System.err.println("_______________________________________________________________________________________________");
 		
 		//Using generic class
 		//Create array of Integer
@@ -24,6 +25,17 @@ public class Demo {
 		String s[]= {"Hi", "Hello", "Good Afternoon", "Bye"};
 		GenericClass<String> strArray=new GenericClass<String>(s);
 		strArray.printArray();
+		System.err.println("_______________________________________________________________________________________________");
+		
+		//Using generic interface
+		MyGenericClass obj1=new MyGenericClass();
+		
+		System.out.println(obj1.getMax(a));
+		System.out.println(obj1.getMin(a));
+
+		System.out.println(obj1.getMax(s));
+		System.out.println(obj1.getMin(s));
+	
 	}
 
 }
