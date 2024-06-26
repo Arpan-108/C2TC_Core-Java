@@ -4,4 +4,5 @@ public interface AirFare {
 	
 	double  calculateAmount();
 	
+	
 }
