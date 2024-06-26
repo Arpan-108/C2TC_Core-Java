@@ -1,6 +1,6 @@
 package com.tnsif.daytwenty;
 
-@SmartTV(os = "Android",price=90000)
+@SmartTV(os = "Android", price=90000)
 public class AndroidSeries {
 
 	String model;

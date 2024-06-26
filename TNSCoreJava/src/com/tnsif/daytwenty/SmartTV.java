@@ -11,6 +11,5 @@ import java.lang.annotation.Target;
 public @interface SmartTV {
 	
 	String os();
-	int height() default 56000;
-	int price();
+	int price() default 56000;
 }
