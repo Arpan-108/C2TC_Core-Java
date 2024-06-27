@@ -63,4 +63,36 @@ public class MyTestClass {
 		
 		Assertions.assertFalse(Operations.isPrime(4));
 	}
+	
+	@Test
+	public void testForNumberPalindrome() {
+		
+		System.out.println("Number Palindrome testing");
+		
+		Assertions.assertTrue(Operations.isPalindrome(151));
+	}
+	
+	@Test
+	public void testForNumberNonPalindrome() {
+		
+		System.out.println("Number Not Palindrome testing");
+		
+		Assertions.assertFalse(Operations.isPalindrome(15));
+	}
+	
+	@Test
+	public void testForStringPalindrome() {
+		
+		System.out.println("String Palindrome testing");
+		
+		Assertions.assertTrue(Operations.isPalindrome("RACECAR"));
+	}
+	
+	@Test
+	public void testForStringNonPalindrome() {
+		
+		System.out.println("String Not Palindrome testing");
+		
+		Assertions.assertFalse(Operations.isPalindrome("CAR"));
+	}
 }

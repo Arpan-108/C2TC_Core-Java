@@ -49,9 +49,10 @@ public class Operations {
 		return primeFlag;
 	}
 	
-	/*
-	 * public static boolean isStringPalindrome(String s) {
-	 * 
-	 * return s. }
-	 */
+	
+	  public static boolean isPalindrome(String s) {
+	  
+		  return (s.equals(new StringBuffer(s).reverse().toString()));
+	  }
+	 
 }
