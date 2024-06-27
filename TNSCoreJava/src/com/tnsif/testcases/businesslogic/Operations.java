@@ -20,4 +20,38 @@ public class Operations {
 		
 		return f;
 	}
+	
+	public static boolean isPalindrome(int n) {
+		
+		int n1 = n, rev = 0;
+		while(n!=0) {
+			
+			rev= rev*10 + n%10;
+			n = n/10;
+		}
+		
+		return n1 == rev;
+	}
+	
+	public static boolean isPrime(int n) {
+		
+		boolean primeFlag = true;
+		
+		for(int i=2;i<=n/2;i++) {
+			
+			if(n%i == 0) {
+				
+				primeFlag=false;
+				break;
+			}
+		}
+		
+		return primeFlag;
+	}
+	
+	/*
+	 * public static boolean isStringPalindrome(String s) {
+	 * 
+	 * return s. }
+	 */
 }

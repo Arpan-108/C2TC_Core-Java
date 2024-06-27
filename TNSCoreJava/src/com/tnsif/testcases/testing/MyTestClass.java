@@ -47,4 +47,20 @@ public class MyTestClass {
 		
 		Assertions.assertEquals(expected, actual);
 	}
+	
+	@Test
+	public void testForPrime() {
+		
+		System.out.println("Prime testing");
+		
+		Assertions.assertTrue(Operations.isPrime(5));
+	}
+	
+	@Test
+	public void testForNonPrime() {
+		
+		System.out.println("Non Prime testing");
+		
+		Assertions.assertFalse(Operations.isPrime(4));
+	}
 }
