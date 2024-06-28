@@ -33,4 +33,9 @@ public class TestClassTwo {
 				()->{Assertions.assertFalse(12>50);}));
 		return tests;
 	}
+	
+	@TestFactory
+	public List<DynamicTest> testMethodThree() {
+		return null;
+	}
 }
