@@ -20,7 +20,7 @@ public class TestClassOne {
 	}
 	
 	@ParameterizedTest
-	@ValueSource(ints= {5, 9, 13, 20})
+	@ValueSource(ints= {5, 3, 13, 11})
 	public void testForPrimeNumbers(int n) {
 		
 		assertTrue(Operations.isPrime(n));
